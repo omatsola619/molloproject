@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  height: 300px;
+  width: 100%;
+  background-color: #f9f9f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .search {
+  width: 100%;
+}
+
+.header .search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .search form input {
+  width: 60%;
+  height: 40px;
+  padding: 10px;
+}
+
+.header .search form button {
+  background: black;
+  border-radius: 0;
+}
+
+.header .search form button i {
+  color: white;
+  background-image: url();
+}
+
+.main {
+  margin-top: -30px;
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 8px;
+}
+
+.main .items {
+  position: relative;
+  text-align: center;
+  gap: 5px;
+  padding: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main .items h3 {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  overflow: hidden;
+  color: white;
+}
+
+.main .items img {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Home.css.map */
